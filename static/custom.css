@@ -1,0 +1,23 @@
+
+pre code {
+    white-space: pre;
+    overflow-x: auto;
+    display: block;
+}
+
+code {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.39);
+}
+
+pre,
+pre code {
+    background-color: #a9a9a905 !important;
+    color: #000000e5 !important;
+    overflow-x: auto;
+    font-size: 0.9em;
+}
+
+.w {
+    max-width: 720px;
+}
