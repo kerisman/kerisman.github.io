@@ -7,8 +7,8 @@ serve:
 publish:
 	./build.sh
 
-list-drafts:
-	@grep -rl 'draft = true' content/posts
+find-drafts:
+	@grep -rl 'draft = true' content/blog
 
-list-ready:
-	@grep -rl 'draft = false' content/posts
+find-ready:
+	@grep -rl 'draft = false' content/blog
